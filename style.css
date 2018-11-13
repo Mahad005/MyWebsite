@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+	background-color: #FFFFB3;
+}
+body nav {
+	background-color: white;
+	border-style: solid;
+}
+h1 {
+	text-align: center;
+}
+
+
+p {
+}
+h2 {
+	text-align: center;
+	70px;
+}
+
+
+
+
+@media screen and (min-width:500px) and (max-width:700px){
+}
