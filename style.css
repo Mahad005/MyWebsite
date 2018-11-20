@@ -15,11 +15,18 @@ p {
 }
 h2 {
 	text-align: center;
-	70px;
 }
 
 
 
-
 @media screen and (min-width:500px) and (max-width:700px){
+}
+.left {
+	width: 50%;
+	float: none;
+}
+
+.right {
+	width: 50%;
+	float: right;
 }

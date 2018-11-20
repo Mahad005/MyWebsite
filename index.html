@@ -5,15 +5,47 @@
 <head>
     <title>My Hobby</title>
   </head>
-  <body>
-    <nav><a href="index.html">Home</a>
-      |
-      <a href="doom.html">Doom</a>
-      |
-      <a href="ff.html">Final Fantasy</a>
-      |
-      <a href="smash.html">Super Smash Bros.</a></nav>
-      <main>
+ <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+	border: 1px solid #555;
+}
+
+li {
+    float: left;
+    border-right:1px solid #000000;
+}
+
+li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #BCBCBC;
+}
+
+.active {
+    background-color: #FFC723;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="doom.html">Doom</a></li>
+  <li><a href="ff.html">Final Fantasy</a></li>
+  <li><a href="smash.html">Super Smash Bros.</a></li>
+</ul>
+	  <main>
         <section>
           <article>
             <h2>My Hobby</h2>
