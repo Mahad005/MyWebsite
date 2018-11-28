@@ -6,41 +6,14 @@
     <title>My Hobby</title>
   </head>
  <style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FFFFFF;
-	border: 1px solid #555;
-}
-
-li {
-    float: left;
-    border-right:1px solid #000000;
-}
-
-li a {
-    display: block;
-    color: #111;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #BCBCBC;
-}
-
-.active {
-    background-color: #FFC723;
-}
 </style>
 </head>
 <body>
-
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
+	<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Games</a>
+    <div class="dropdown-content">
   <li><a href="doom.html">Doom</a></li>
   <li><a href="ff.html">Final Fantasy</a></li>
   <li><a href="smash.html">Super Smash Bros.</a></li>
